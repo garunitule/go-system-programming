@@ -1,0 +1,5 @@
+package fmttest
+
+func Write() {
+
+}
