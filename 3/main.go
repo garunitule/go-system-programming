@@ -3,6 +3,7 @@ package main
 import (
 	"./binaryread"
 	"./bufferread"
+	"./textread"
 )
 
 func main() {
@@ -12,4 +13,5 @@ func main() {
 	bufferread.Read()
 	binaryread.Read()
 	binaryread.ReadChangeEndian()
+	textread.Read()
 }
